@@ -61,7 +61,7 @@ textarea {
   color: white;
 }
 
-#save-button {
+#save-button1,#save-button2,#save-button3,#save-button4,#save-button5,#save-button6,#save-button7,#save-button8,#save-button9 {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -71,7 +71,7 @@ textarea {
 
 }
 
-#save-button i:hover {
+#save-button1 i:hover,#save-button2 i:hover ,#save-button3 i:hover ,#save-button4 i:hover ,#save-button5 i:hover ,#save-button6 i:hover ,#save-button7 i:hover ,#save-button8 i:hover ,#save-button9 i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
