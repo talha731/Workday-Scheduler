@@ -75,3 +75,31 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+#t9,#t10,#t11,#t12,#t1,#t2,#t3,#t4,#t5{
+  display:flex;
+  justify-content: left;
+
+}
+#text-input1,#text-input2,#text-input3,#text-input4,#text-input5,#text-input6,#text-input7,#text-input8,#text-input9{
+  display: flex;
+  justify-content:  center;
+  align-items:center ;
+  font-size: larger;
+  width: 1000px;
+  background-color: #d3d3d3;
+  color: white;
+  background-color: #ff6961;
+  color: white;
+  background-color: #77dd77;
+  color: white;
+ 
+} 
+#event {
+  display: flex;
+  justify-content: center;
+}
+#time{
+  
+  display: flex;
+  justify-content: left;
+}

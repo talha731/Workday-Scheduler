@@ -75,15 +75,6 @@ function updateTime() {
   });
 
 
-
-
-
-
-
-
-
-
-
   // Check for saved values in local storage when the page loads
   if (localStorage.getItem("text-input1")) {
     input1.value = localStorage.getItem("text-input1");
@@ -125,17 +116,22 @@ function updateTime() {
   <p>Input 9: ${localStorage.getItem("text-input9")}</p>`;
 
 
-
-
-
-
-
-
-
-
 // Add time blocks for business hours (9 am to 5 pm)
    // these time blocks need to be editable with text.
    // add a save even button at the end of each event.
    // Time| Event| Save.
    // the event should be saved on a local storage when the save button is clicked.
 //color code events (grey = hours past, red =  set events, green = empty events )
+
+    $(document).ready(function(){
+        var currentDate = new Date();
+        var eventDate = new Date("00:10:00");
+        if (currentDate < eventDate) {
+            $("#past").css("color", "#d3d3d3");
+        } else if (currentDate.getTime() === eventDate.getTime()) {
+            $("#present").css("color", "#ff6961");
+        } else {
+            $("#future").css("color", "#77dd77");
+        }
+    });
+
